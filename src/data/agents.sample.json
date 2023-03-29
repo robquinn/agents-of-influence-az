@@ -1,0 +1,280 @@
+{
+  "root": {
+    "status": "number",
+    "data": [
+      {
+        "_id": "string",
+        "isActive": "boolean",
+        "startedInBrand": "string",
+        "mlsDetails": [{ "isPrimary": "boolean", "mlsId": "string", "board": "string" }],
+        "companyStaffGuid": "string",
+        "specialtyCode": "string",
+        "displayName": "string",
+        "familiarName": "string",
+        "additionalWebsites": [
+          {
+            "websiteTypeCode": "string",
+            "websiteTypeDescription": "string",
+            "url": "string",
+            "contentLanguageCode": "string",
+            "contentLanguageName": "string"
+          },
+          {
+            "websiteTypeCode": "string",
+            "websiteTypeDescription": "string",
+            "url": "string",
+            "contentLanguageCode": "string",
+            "contentLanguageName": "string"
+          },
+          {
+            "websiteTypeCode": "string",
+            "websiteTypeDescription": "string",
+            "url": "string",
+            "contentLanguageCode": "string",
+            "contentLanguageName": "string"
+          },
+          {
+            "websiteTypeCode": "string",
+            "websiteTypeDescription": "string",
+            "url": "string",
+            "contentLanguageCode": "string",
+            "contentLanguageName": "string"
+          }
+        ],
+        "personGuid": "string",
+        "firstName": "string",
+        "middleName": "string",
+        "lastName": "string",
+        "primaryPhoneNumber": "string",
+        "primaryEmailAddress": "string",
+        "vanityEmailAddress": "string",
+        "designations": [
+          { "code": "string", "description": "string", "_id": "string" },
+          { "code": "string", "description": "string", "_id": "string" },
+          { "code": "string", "description": "string", "_id": "string" },
+          { "code": "string", "description": "string", "_id": "string" },
+          { "code": "string", "description": "string", "_id": "string" },
+          { "code": "string", "description": "string", "_id": "string" }
+        ],
+        "additionalEmailAddresses": [
+          { "emailAddress": "string", "emailTypeCode": "string", "_id": "string" }
+        ],
+        "additionalPhoneNumbers": [
+          { "phoneTypeCode": "string", "phoneNumber": "string", "_id": "string" },
+          { "phoneTypeCode": "string", "phoneNumber": "string", "_id": "string" }
+        ],
+        "spokenLanguages": [
+          {
+            "languageCode": "string",
+            "languageName": "string",
+            "isPrimary": "boolean",
+            "_id": "string"
+          }
+        ],
+        "media": [
+          {
+            "mediaGuid": "string",
+            "sequenceNumber": "number",
+            "category": "string",
+            "isDefault": "boolean",
+            "providerIdentifier": "string",
+            "url": "string",
+            "formatCode": "string",
+            "width": "number",
+            "height": "number",
+            "isLandscape": "boolean",
+            "_id": "string"
+          }
+        ],
+        "profiles": [
+          {
+            "profileCategoryCode": "string",
+            "profileCategoryDescription": "string",
+            "profileText": "string",
+            "htmlProfileText": "string",
+            "languageCode": "string",
+            "_id": "string"
+          },
+          {
+            "profileCategoryCode": "string",
+            "profileCategoryDescription": "string",
+            "profileText": "string",
+            "htmlProfileText": "string",
+            "languageCode": "string",
+            "_id": "string"
+          }
+        ],
+        "roles": [
+          {
+            "company": { "companyGuid": "string" },
+            "office": { "officeGuid": "string" },
+            "roleCode": "string",
+            "roleDescription": "string",
+            "activeSince": "string",
+            "isFulltime": "boolean",
+            "isShowOnInternet": "boolean",
+            "_id": "string"
+          }
+        ],
+        "primaryOffice": { "officeGuid": "string" },
+        "company": { "companyGuid": "string" },
+        "licenses": [
+          {
+            "licenseTypeCode": "string",
+            "licenseTypeDescription": "string",
+            "stateProvinceCode": "string",
+            "stateProvinceName": "string",
+            "countryCode": "string",
+            "countryName": "string",
+            "licenseNumber": "string",
+            "issuedOn": "string",
+            "expiresOn": "string",
+            "_id": "string"
+          }
+        ],
+        "__v": "number",
+        "dateOfBirth": "string",
+        "genderCode": "string",
+        "homeAddress": {
+          "addressLine1": "string",
+          "addressLine2": "string",
+          "city": "string",
+          "stateProvinceCode": "string",
+          "postalCode": "string",
+          "countryCode": "string",
+          "_id": "string"
+        },
+        "primaryEmailAddressType": "string",
+        "primaryPhoneNumberType": "string",
+        "primaryWebsite": "string",
+        "providerIdentifier": "string",
+        "documentList": "string",
+        "otherInformation": {
+          "internalNotes": "string",
+          "previousAffiliation": ["string"],
+          "lwGuid": "string",
+          "agentTerminationDate": "string",
+          "misc": {
+            "mlsInfo": [
+              { "name": "string", "number": "string" },
+              { "name": "string", "number": "string" },
+              { "name": "string", "number": "string" }
+            ]
+          },
+          "generalNotes": "string"
+        },
+        "previousAffiliation": "string",
+        "displayTitleCode": "string",
+        "defaultPhotoUrl": "string",
+        "dateOfBirth_mmdd": "string",
+        "licenseNumber": "string",
+        "licenseState": "string",
+        "office": {
+          "officeGuid": "string",
+          "officeId": "string",
+          "officeName": "string",
+          "doingBusinessAs": "string",
+          "isOpen": "boolean",
+          "designationCode": "string",
+          "designationDescription": "string",
+          "physicalAddress": {
+            "district": "string",
+            "latitude": "number",
+            "longitude": "number",
+            "addressLine1": "string",
+            "addressLine2": "string",
+            "city": "string",
+            "postalCode": "string",
+            "stateProvinceCode": "string",
+            "stateProvinceName": "string",
+            "countryCode": "string",
+            "countryName": "string"
+          },
+          "primaryEmailAddress": "string",
+          "primaryPhoneNumber": "string",
+          "primaryWebsite": "string",
+          "faxNumber": "string",
+          "branchManagers": ["string", "string", "string", "string", "string"],
+          "region": "string",
+          "displayName": "string",
+          "abbrName": "string",
+          "alias": "string"
+        },
+        "commissionSchedules": [
+          "string",
+          "string",
+          "string",
+          "string",
+          "string",
+          "string",
+          "string"
+        ],
+        "graphqlId": "string",
+        "accounting_entity": {
+          "qboVendor": {
+            "id": "number",
+            "quick_books_online_account_id": "number",
+            "qbo_id": "string",
+            "sync_token": "string",
+            "meta_create_time": "string",
+            "meta_last_updated_time": "string",
+            "title": "object",
+            "given_name": "string",
+            "middle_name": "string",
+            "family_name": "string",
+            "display_name": "string",
+            "fully_qualified_name": "object",
+            "company_name": "string",
+            "print_on_check_name": "string",
+            "primary_phone": "string",
+            "alternate_phone": "object",
+            "mobile": "object",
+            "fax": "object",
+            "primary_email_addr": "string",
+            "web_addr": "object",
+            "tax_identifier": "string",
+            "qbo_term_id": "object",
+            "acct_num": "object",
+            "vendor_1099": "boolean",
+            "destroyed_at": "object",
+            "created_at": "string",
+            "updated_at": "string",
+            "from": "object"
+          },
+          "qboCustomer": {
+            "id": "number",
+            "qbo_id": "string",
+            "quick_books_online_account_id": "number",
+            "sync_token": "string",
+            "meta_create_time": "string",
+            "meta_last_updated_time": "string",
+            "title": "object",
+            "given_name": "string",
+            "middle_name": "object",
+            "family_name": "string",
+            "display_name": "string",
+            "fully_qualified_name": "string",
+            "company_name": "string",
+            "print_on_check_name": "string",
+            "primary_phone": "string",
+            "alternate_phone": "object",
+            "mobile": "object",
+            "fax": "object",
+            "primary_email_addr": "string",
+            "web_addr": "object",
+            "notes": "object",
+            "job": "boolean",
+            "bill_with_parent": "boolean",
+            "destroyed_at": "object",
+            "created_at": "string",
+            "updated_at": "string",
+            "balance_cents": "number",
+            "balance_currency": "string",
+            "from": "object"
+          }
+        },
+        "activeSince": "string"
+      }
+    ]
+  }
+}

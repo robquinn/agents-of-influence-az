@@ -1,0 +1,9 @@
+webpack.config.js
+webpack.gas.js
+webpack.images.js
+webpack.google.js
+
+src/data/**/*.ts
+src/data/agents.ts
+src/data/agents.js
+src/data/agents.original.ts
