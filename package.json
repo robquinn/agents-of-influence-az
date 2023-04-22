@@ -1,7 +1,7 @@
 {
-  "name": "connect-agents-json",
+  "name": "agents-of-influence-az",
   "version": "1.2.1",
-  "description": "",
+  "description": "Automation tasks, such as uploading and greyscaling photos, for agentsofinfluenceaz.com",
   "main": "index.js",
   "scripts": {
     "lint": "eslint --fix src/**/*.ts",
